@@ -84,7 +84,7 @@ class SimpleFileBackend extends AbstractBackend implements PhpCapableBackendInte
      */
     public function initializeObject()
     {
-        $this->useIgBinary = extension_loaded('igbinary');
+        //$this->useIgBinary = extension_loaded('igbinary');
     }
 
     /**

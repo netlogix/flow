@@ -1894,7 +1894,8 @@ class ReflectionService
             return false;
         }
 
-        $useIgBinary = extension_loaded('igbinary');
+        //$useIgBinary = extension_loaded('igbinary');
+        $useIgBinary = false;
         foreach ($this->packageManager->getActivePackages() as $packageKey => $package) {
             if (!$this->packageManager->isPackageFrozen($packageKey)) {
                 continue;

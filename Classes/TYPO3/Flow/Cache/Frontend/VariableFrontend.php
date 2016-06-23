@@ -36,7 +36,7 @@ class VariableFrontend extends AbstractFrontend
      */
     public function initializeObject()
     {
-        $this->useIgBinary = extension_loaded('igbinary');
+        //$this->useIgBinary = extension_loaded('igbinary');
         parent::initializeObject();
     }
 
